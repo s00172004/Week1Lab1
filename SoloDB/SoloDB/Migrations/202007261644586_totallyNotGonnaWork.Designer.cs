@@ -7,13 +7,13 @@ namespace SoloDB.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class SoloDB : IMigrationMetadata
+    public sealed partial class totallyNotGonnaWork : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(SoloDB));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(totallyNotGonnaWork));
         
         string IMigrationMetadata.Id
         {
-            get { return "202007091915544_SoloDB"; }
+            get { return "202007261644586_totallyNotGonnaWork"; }
         }
         
         string IMigrationMetadata.Source

@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class SoloDB : DbMigration
+    public partial class totallyNotGonnaWork : DbMigration
     {
         public override void Up()
         {

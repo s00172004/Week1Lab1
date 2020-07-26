@@ -149,15 +149,15 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Data\SoloContext.cs" />
+    <Compile Include="Migrations\202007261644586_totallyNotGonnaWork.cs" />
+    <Compile Include="Migrations\202007261644586_totallyNotGonnaWork.designer.cs">
+      <DependentUpon>202007261644586_totallyNotGonnaWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="SoloContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202007091915544_SoloDB.cs" />
-    <Compile Include="Migrations\202007091915544_SoloDB.designer.cs">
-      <DependentUpon>202007091915544_SoloDB.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Console.cs" />
     <Compile Include="Models\Game.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -202,6 +202,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -219,8 +220,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202007091915544_SoloDB.resx">
-      <DependentUpon>202007091915544_SoloDB.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202007261644586_totallyNotGonnaWork.resx">
+      <DependentUpon>202007261644586_totallyNotGonnaWork.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
